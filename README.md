@@ -208,4 +208,4 @@ Khởi động trình thông dịch Python và dùng nó như một máy tính �
 Có bao nhiêu giây trong 42 phút 42 giây?
 Có bao nhiêu dặm (miles) trong 10 km? Gợi ý: Một dặm tương đương 1.61 km.
 Nếu như bạn chạy trong một cuộc đua 10 km trong thời gian là 42 phút 42 giây, thì vận tốc trung bình của bạn (tức là thời gian cho một dặm tính bằng phút và giây) là bao nhiêu? Tốc độ trung bình của bạn tính bằng dặm/giờ là bao nhiêu?
-Chú ý: Khi bạn đã tự hoàn thành các bài tập bên trên, bạn có thể truy cập vào thư mục Đáp án để xem đáp án.
+Chú ý: Khi bạn đã tự hoàn thành các bài tập bên trên, bạn có thể truy cập vào thư mục Đáp án để xem [đáp án](https://bitbucket.org/tanhuynhng/thinking-python/src/master/%C4%90%C3%A1p%20%C3%A1n/).
