@@ -1,7 +1,7 @@
-Chương 1 - Phương thức của chương trình
+#Chương 1 - Phương thức của chương trình
 Mục tiêu của cuốn sách này là dạy bạn tư duy như một Nhà khoa học máy tính. Phương pháp tư duy này kết hợp những điểm tốt nhất giữa toán học, kỹ thuật và khoa học tự nhiên. Giống như những nhà toán học, các nhà khoa học máy tính sử dụng ngôn ngữ chính thức để chứng tỏ các ý tưởng của họ (cụ thể là các phép tính). Như các kỹ sư, họ thiết kế nhiều thứ, tập hợp các linh kiện thành các hệ thống và đánh giá sự được mất giữa các lựa chọn khác nhau. Như các nhà khoa học, họ quan sát hành vi của các hệ thống phức tạp, tạo ra các giả thuyết và kiểm chứng các tiên đoán. Kỹ năng quan trọng nhất đối với một Nhà khoa học máy tính là giải quyết vấn đề. Kỹ năng giải quyết vấn đề là khả năng công thức hóa các vấn đề, nghĩ một cách sáng tạo về các giải pháp, và trình bày giải pháp một cách rõ ràng và chính xác. Thật ra, quá trình học lập trình là một cơ hội tuyệt vời để luyện tập kỹ năng giải quyết vấn đề. Đó là lý do tại sao chương sách này có tên là: “Phương thức của một chương trình”. Ở một cấp độ, bạn sẽ được học lập trình, một kỹ năng mà bản thân nó đã hữu ích. Ở một cấp độ khác, bạn sẽ sử dụng lập trình như một phương thức để đạt được mục đích. Trong quá trình ta học cùng nhau, mục đích đó sẽ trở nên rõ ràng hơn.
 
-1. Một chương trình là gì?
+##1. Một chương trình là gì?
 Một chương trình là một chuỗi những câu lệnh (hay hướng dẫn) chỉ rõ cách thực hiện một phép tính. Phép tính đó có thể là một điều gì đó mang tính toán học, như là giải quyết một hệ phương trình hoặc là tìm nghiệm của một đa thức, nhưng cũng có thể là một phép tính biểu tượng, như là tìm kiếm và thay thế đoạn ký tự trong một văn bản hay thứ gì đó mang tính đồ họa, như xử lý một hình ảnh hay chạy một đoạn video. Các chi tiết trông khác nhau tùy vào ngôn ngữ khác nhau, nhưng các câu lệnh hướng dẫn cơ bản xuất hiện trong hầu như tất cả mọi ngôn ngữ:
 
 Đầu vào: Lấy dữ liệu từ bàn phím, từ một file, từ một mạng, hay từ một số thiết bị khác.
@@ -11,7 +11,7 @@ Xử lý có điều kiện: Kiểm tra một số điều kiện nhất định
 Lặp lại: Thực hiện một số hành động lặp đi lặp lại, thường là với sự biến đổi.
 Tin hay không, tất cả chỉ có vậy. Mọi chương trình chúng ta từng sử dụng, cho dù phức tạp đến thế nào, đều được tạo nên từ các câu lệnh trông như vậy. Vậy nên bạn có thể nghĩ về lập trình như một quy trình chia nhỏ một tác vụ lớn, phức tạp thành các tác vụ phụ nhỏ hơn và nhỏ hơn nữa cho đến khi các tác vụ phụ đã đủ đơn giản để được thực hiện với những câu lệnh hướng dẫn cơ bản này.
 
-2. Vận hành Python
+##2. Vận hành Python
 Một trong những thách thức của việc bắt đầu với Python là bạn có thể phải cài đặt Python và các phần mềm liên quan trên máy tính của bạn. Nếu như bạn quen thuộc với hệ điều hành của bạn, và đặc biệt nếu như bạn thoải mái với giao diện theo dòng lệnh, bạn sẽ không gặp vấn đề gì trong việc cài đặt Python. Nhưng cho người mới bắt đầu, sẽ rất khó khăn để học về quản trị hệ thống và lập trình cùng một lúc.
 
 Để tránh vấn đề đó, tôi đề xuất bạn bắt đầu chạy Python trong một trình duyệt Internet. Sau đó, khi bạn đã quen với Python, tôi sẽ tạo ra những đề xuất để cài đặt Python trên máy tính của bạn.
@@ -33,7 +33,7 @@ Dòng cuối cùng là dòng nhập lệnh nghĩa là chương trình thông d�
 2
 Bây giờ bạn đã sẵn sàng để bắt đầu. Từ giờ trở đi, tôi mặc định rằng bạn biết cách khởi động chương trình thông dịch Python và chạy code.
 
-3. Chương trình đầu tiên
+##3. Chương trình đầu tiên
 Theo truyền thống, chương trình đầu tiên các bạn viết bằng một ngôn ngữ mới gọi là Hello, World! vì tất cả những gì nó làm là hiển thị các từ Hello, World! ra ngoài màn hình. Trong Python, nó sẽ trông như thế này:
 
 >>> print ('Hello, World!')
@@ -48,7 +48,7 @@ Trong Python 2, câu lệnh print có khác hơn một chút; nó không phải 
 >>>print 'Hello, World'
 Sự khác biệt này sẽ sớm được giải thích hợp lý, nhưng khởi đầu như vậy là đủ.
 
-4. Các phép toán tử
+##4. Các phép toán tử
 Sau Hello, World, bước tiếp theo là các phép toán tử. Python cung cấp các phương thức tính toán, gồm những ký tự đặc biệt đại diện cho các phép tính như cộng và nhân.
 
 Các dấu +,- và * biểu diễn phép cộng, trừ, và nhân, như trong các ví dụ sau đây:
@@ -72,7 +72,7 @@ Trong một số ngôn ngữ khác, ký hiệu ^ được sử dụng cho phép 
 4
 Tôi sẽ không đề cập dến các phép tính dạng bit trong cuốn sách này, nhưng bạn có thể đọc về chúng tại: http://wiki.python.org/moin/BitwiseOperators
 
-5. Các giá trị và kiểu dữ liệu
+##5. Các giá trị và kiểu dữ liệu
 Một giá trị là một trong những điều cơ bản mà chương trình làm việc với, như là chữ hay là số. Một số giá trị chúng ta đã thấy cho đến giờ là 2, 42.0, và Hello, World!.
 
 Những giá trị này thuộc về nhiều kiểu dữ liệu khác nhau: 2 là số nguyên, 42.0 là số thập phân, và Hello, World! là kiểu chuỗi, gọi như vậy là vì các chữ mà nó chứa được xâu chuỗi với nhau.
@@ -99,7 +99,7 @@ Khi bạn gõ một số nguyên lớn, bạn sẽ khó cưỡng lại việc d�
 (1, 0, 0)
 Đây không phải là điều mà chúng ta mong muốn! Python hiểu và thông dịch 1,000,000 là một chuỗi số nguyên phân cách bởi các dấu phẩy. Chúng ta sẽ học về kiểu chuỗi như vậy sau này.
 
-6. Ngôn ngữ chính thức và ngôn ngữ tự nhiên
+##6. Ngôn ngữ chính thức và ngôn ngữ tự nhiên
 Những ngôn ngữ tự nhiên là những ngôn ngữ mà con người dùng để nói như tiếng Anh, Tây Ban Nha và Pháp. Chúng không được thiết kế bởi con người (mặc dù một số người cố áp đặt trật tự lên chúng); chúng tiến hóa một cách tự nhiên.
 
 Những ngôn ngữ chính thức là những ngôn ngữ được thiết kế bởi con người cho những ứng dụng nhất định. Ví dụ, các ghi chú mà các nhà toán học sử dụng là một ngôn ngữ chính thức rất tốt trong việc ghi lại mối quan hệ giữa các con số và các dấu. Các nhà hóa học sử dụng ngôn ngữ chính thức để ghi đại diện cho các cấu trúc hóa học của các phân tử. Và quan trọng nhất là:
@@ -131,7 +131,7 @@ Chương trình: Ý nghĩa của một chương trình máy tính là không mơ
 
 Ngôn ngữ chính thức thường dày đặc hơn ngôn ngữ tự nhiên, vì thế cũng mất nhiều thời gian hơn để đọc chúng. Hơn nữa, cấu trúc thì quan trọng, cho nên việc đọc từ trên xuống dưới, trái sang phải không phải lúc nào cũng tốt nhất. Thay vào đó, hãy học cách phân tích cú pháp chương trình trong đầu bạn, xác định các chương trình và thông dịch cấu trúc. Cuối cùng, các chi tiết rất quan trọng. Các lỗi nhỏ trong đánh vần và chấm phẩy, mà bạn có thể bỏ qua trong ngôn ngữ tự nhiên, có thể tạo sự khác biệt lớn trong ngôn ngữ chính thức.
 
-7. Gỡ lỗi
+##7. Gỡ lỗi
 Các lập trình viên mắc lỗi vì những lý do bất thường, những lỗi lập trình gọi là con bọ hay là bug và quy trình tìm các lỗi gọi là gỡ lỗi hay là debug.
 
 Lập trình, đặc biệt là debug, đôi khi mang đến những cảm xúc mạnh mẽ. Nếu như bạn đang vật lộn với một bug khó, bạn có thể cảm thấy tức giận, chán nản, hoặc xấu hổ.
@@ -144,7 +144,7 @@ Công việc của bạn là trở thành một nhà quản lý tốt: Tìm ra c
 
 Học debug có thể làm nản lòng, nhưng đó là một kỹ năng quý giá mà hữu dụng cho nhiều hoạt động trên cả lập trình. Ở cuối mỗi chương có một đoạn, như đoạn này, với đề xuất của tôi cho debug. Tôi hy vọng chúng sẽ giúp được bạn!
 
-8. Thuật ngữ
+##8. Thuật ngữ
 problem solving – giải quyết vấn đề: Quy trình công thức hóa một vấn đề, tìm ra giải pháp và diễn giải nó.
 
 high-level language – ngôn ngữ cấp cao: Một ngôn ngữ lập trình như Python được thiết kế để trở nên dễ đọc và viết cho con người.
@@ -187,4 +187,4 @@ bug – lỗi: Một lỗi của một chương trình máy tính.
 
 debugging – gỡ lỗi: Quá trình tìm và sửa lỗi.
 
-9. Bài tập
+##9. Bài tập
