@@ -21,9 +21,9 @@ Có một số trang web bạn có thể dùng để chạy Python. Nếu như b
 Có 2 phiên bản Python, có tên là Python 2 và Python 3. Chúng rất giống nhau, nên nếu bạn đã học một phiên bản trước đó, sẽ rất dễ để chuyển sang phiên bản khác. Thật ra, chỉ có một vài điểm khác biệt mà bạn sẽ tiếp xúc với tư cách là một người bắt đầu. Cuốn sách này được viết cho Python 3, nhưng tôi sẽ thêm một số ghi chú về Python 2.
 
 Chương trình thông dịch Python là một chương trình đọc và thực thi các mã lệnh Python. Tùy vào môi trường của bạn, bạn có thể khởi động chương trình thông dịch bằng cách nhấp chuột vào biểu tượng, hoặc gõ python3 - dòng lệnh Terminal hay python - dòng lệnh CMD. Khi nó khởi động, bạn sẽ thấy kết quả hiển thị như sau:
-`Python 3.11.0 (v3.11.0:deaf509e8f, Oct 24 2022, 14:43:23) [Clang 13.0.0 (clang-1300.0.29.30)] on darwin`
-`Type "help", "copyright", "credits" or "license" for more information`.
-`>>>`
+`Python 3.11.0 (v3.11.0:deaf509e8f, Oct 24 2022, 14:43:23) [Clang 13.0.0 (clang-1300.0.29.30)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>>`
 Ba dòng đầu tiên chứa thông tin về chương trình thông dịch và hệ điều hành mà đang chạy chương trình này, vì vậy nó có thể khác đối với bạn. Nhưng bạn nên kiểm tra xem số phiên bản, ví dụ như 3.11.0, bắt đầu với số 3, nghĩa là bạn đang chạy Python 3. Nếu nó bắt đầu với số 2, nghĩa là bạn đang chạy Python 2.
 
 Dòng cuối cùng là dòng nhập lệnh nghĩa là chương trình thông dịch này sẵn sang cho bạn nhập mã (code). Nếu bạn gõ một dòng lệnh và nhấn enter, trình thông dịch hiển thị kết quả:
