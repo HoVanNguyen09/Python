@@ -24,8 +24,8 @@ Chương trình thông dịch Python là một chương trình đọc và thực
 
 Python 3.11.0 (v3.11.0:deaf509e8f, Oct 24 2022, 14:43:23) [Clang 13.0.0 (clang-1300.0.29.30)] on darwin
 
-Type "help", "copyright", "credits" or "license" for more information.
->>>
+`Type "help", "copyright", "credits" or "license" for more information.
+>>>`
 
 Ba dòng đầu tiên chứa thông tin về chương trình thông dịch và hệ điều hành mà đang chạy chương trình này, vì vậy nó có thể khác đối với bạn. Nhưng bạn nên kiểm tra xem số phiên bản, ví dụ như 3.11.0, bắt đầu với số 3, nghĩa là bạn đang chạy Python 3. Nếu nó bắt đầu với số 2, nghĩa là bạn đang chạy Python 2.
 
@@ -147,58 +147,58 @@ Công việc của bạn là trở thành một nhà quản lý tốt: Tìm ra c
 Học debug có thể làm nản lòng, nhưng đó là một kỹ năng quý giá mà hữu dụng cho nhiều hoạt động trên cả lập trình. Ở cuối mỗi chương có một đoạn, như đoạn này, với đề xuất của tôi cho debug. Tôi hy vọng chúng sẽ giúp được bạn!
 
 ## 8. Thuật ngữ
-problem solving – giải quyết vấn đề: Quy trình công thức hóa một vấn đề, tìm ra giải pháp và diễn giải nó.
+- problem solving – giải quyết vấn đề: Quy trình công thức hóa một vấn đề, tìm ra giải pháp và diễn giải nó.
 
-high-level language – ngôn ngữ cấp cao: Một ngôn ngữ lập trình như Python được thiết kế để trở nên dễ đọc và viết cho con người.
+- high-level language – ngôn ngữ cấp cao: Một ngôn ngữ lập trình như Python được thiết kế để trở nên dễ đọc và viết cho con người.
 
-low-level language – ngôn ngữ cấp thấp: Một ngôn ngữ lập trình được thiết kế để trở nên dễ dàng cho máy tính vận hành; còn được gọi là “ngôn ngữ máy” hay “ngôn ngữ tập hợp” (“assembly language”).
+- low-level language – ngôn ngữ cấp thấp: Một ngôn ngữ lập trình được thiết kế để trở nên dễ dàng cho máy tính vận hành; còn được gọi là “ngôn ngữ máy” hay “ngôn ngữ tập hợp” (“assembly language”).
 
-portability – tính di động: Một tính chất của một chương trình mà có thể chạy trên hơn một loại máy tính.
+- portability – tính di động: Một tính chất của một chương trình mà có thể chạy trên hơn một loại máy tính.
 
-interpreter – trình thông dịch: Một chương trình mà đọc một chương trình khác và xử lý nó.
+- interpreter – trình thông dịch: Một chương trình mà đọc một chương trình khác và xử lý nó.
 
-prompt – lời nhắc: Các ký tự hiển thị bởi trình thông dịch để gợi ý rằng nó đã sẵn sàng để lấy thông tin đầu vào từ người dùng. Đối với chương trình Python là >>>
+- prompt – lời nhắc: Các ký tự hiển thị bởi trình thông dịch để gợi ý rằng nó đã sẵn sàng để lấy thông tin đầu vào từ người dùng. Đối với chương trình Python là >>>
 
-program – chương trình: Một tập hợp các lệnh đặc tả một phép tính.
+- program – chương trình: Một tập hợp các lệnh đặc tả một phép tính.
 
-print statement – lệnh in: Một mệnh lệnh khiến cho trình thông dịch Python hiển thị một giá trị lên màn hình của bạn.
+- print statement – lệnh in: Một mệnh lệnh khiến cho trình thông dịch Python hiển thị một giá trị lên màn hình của bạn.
 
-operator – toán tử: Một ký tự đặc biệt đại diện cho một phép tính đơn giản như cộng, nhân hay nối chuỗi...
+- operator – toán tử: Một ký tự đặc biệt đại diện cho một phép tính đơn giản như cộng, nhân hay nối chuỗi...
 
-value – giá trị: Một trong những đơn vị cơ bản của dữ liệu, như một số hay một chuỗi mà chương trình điều khiển.
+- value – giá trị: Một trong những đơn vị cơ bản của dữ liệu, như một số hay một chuỗi mà chương trình điều khiển.
 
-type – kiểu dữ liệu: Là một loại dữ liệu. Các kiểu dữ liệu mà chúng ta thấy tới nay là số nguyên (int), số thập phân (float), và kiểu chuỗi (str).
+- type – kiểu dữ liệu: Là một loại dữ liệu. Các kiểu dữ liệu mà chúng ta thấy tới nay là số nguyên (int), số thập phân (float), và kiểu chuỗi (str).
 
-integer – số nguyên: Một kiểu dữ liệu mà đại diện cho số nguyên.
+- integer – số nguyên: Một kiểu dữ liệu mà đại diện cho số nguyên.
 
-floating-point - số thập phân: Một kiểu dữ liệu đại diện cho các số với các phần số thập phân.
+- floating-point - số thập phân: Một kiểu dữ liệu đại diện cho các số với các phần số thập phân.
 
-string – chuỗi: Một kiểu dữ liệu đại diện một chuỗi các ký tự.
+- string – chuỗi: Một kiểu dữ liệu đại diện một chuỗi các ký tự.
 
-natural language – ngôn ngữ tự nhiên: Bất kỳ ngôn ngữ nào mà con người nói, tiến hóa một cách tự nhiên.
+- natural language – ngôn ngữ tự nhiên: Bất kỳ ngôn ngữ nào mà con người nói, tiến hóa một cách tự nhiên.
 
-formal language – ngôn ngữ chính thức: Bất kỳ ngôn ngữ nào mà con người thiết kế vì một mục đích cụ thể, ví dụ như biểu diễn các ý tưởng toán học hoặc các chương trình máy tính; tất cả các ngôn ngữ lập trình đều là ngôn ngữ chính thức.
+- formal language – ngôn ngữ chính thức: Bất kỳ ngôn ngữ nào mà con người thiết kế vì một mục đích cụ thể, ví dụ như biểu diễn các ý tưởng toán học hoặc các chương trình máy tính; tất cả các ngôn ngữ lập trình đều là ngôn ngữ chính thức.
 
-token – đơn vị mã hóa: Một trong những yếu tố cơ bản của cấu trúc cú pháp của một chương trình, tương đương với từ trong ngôn ngữ tự nhiên.
+- token – đơn vị mã hóa: Một trong những yếu tố cơ bản của cấu trúc cú pháp của một chương trình, tương đương với từ trong ngôn ngữ tự nhiên.
 
-syntax – cú pháp: Những quy tắc quản lý cấu trúc của một chương trình.
+- syntax – cú pháp: Những quy tắc quản lý cấu trúc của một chương trình.
 
-parse – phân tích cú pháp: Kiểm tra một chương trình và phân tích cấu trúc cú pháp của nó.
+- parse – phân tích cú pháp: Kiểm tra một chương trình và phân tích cấu trúc cú pháp của nó.
 
-bug – lỗi: Một lỗi của một chương trình máy tính.
+- bug – lỗi: Một lỗi của một chương trình máy tính.
 
-debugging – gỡ lỗi: Quá trình tìm và sửa lỗi.
+- debugging – gỡ lỗi: Quá trình tìm và sửa lỗi.
 
 ## 9. Bài tập
 ### Bài tập 1:
 Sẽ là một ý kiến rất hay khi bạn đọc cuốn sách này trước một máy tính để bạn có thể thử hết các ví dụ:
 
-1. Khi nào mà bạn thử nghiệm với các tính năng mới, bạn nên thử mắc lỗi. Ví dụ, trong chương trình “Hello, world!, chuyện gì xảy ra nếu bạn bỏ một dấu nháy đôi đi? Chuyện gì xảy ra nếu bạn bỏ cả hai dấu nháy đôi? Chuyện gì xảy ra nếu bạn gõ lệnh print sai?
+1. Khi nào mà bạn thử nghiệm với các tính năng mới, bạn nên thử mắc lỗi. Ví dụ, trong chương trình “Hello, world!, chuyện gì xảy ra nếu bạn bỏ một dấu nháy đôi đi? Chuyện gì xảy ra nếu bạn bỏ cả hai dấu nháy đôi? Chuyện gì xảy ra nếu bạn gõ lệnh `print` sai?
 2. Những thử nghiệm như thế này giúp bạn nhớ những gì bạn đã đọc, nó cũng giúp khi bạn lập trình, vì bạn sẽ biết được ý nghĩa của tin nhắn lỗi như thế nào. Sẽ tốt hơn cho bạn nếu bạn mắc lỗi bây giờ và có mục đích hơn là sau này và vô ý.
 3. Trong câu lệnh `print`, chuyện gì xảy ra nếu bạn bỏ một dấu ngoặc đơn hoặc là cả hai?
 4. Nếu như bạn đang cố in ra một chuỗi, chuyện gì xảy ra nếu như bạn bỏ một dấu nháy, hoặc cả hai?
-5.Bạn có thể dùng dấu trừ (-) để tạo một số âm như -2. Chuyện gì xảy ra nếu bạn bỏ dấu cộng (+) trước một số? Phép tính 2++2 thì sao?
-6. Trong ghi chú toán học, số 0 đứng đầu thì ổn, vì dụ như 09. Chuyện gì xảy ra nếu bạn thử gõ như vậy trong Python? 011 thì sao?
+5.Bạn có thể dùng dấu trừ `(-)` để tạo một số âm như `-2`. Chuyện gì xảy ra nếu bạn bỏ dấu cộng `(+)` trước một số? Phép tính `2++2` thì sao?
+6. Trong ghi chú toán học, số 0 đứng đầu thì ổn, vì dụ như `09`. Chuyện gì xảy ra nếu bạn thử gõ như vậy trong Python? `011` thì sao?
 7. Chuyện gì xảy ra nếu bạn có hai giá trị mà không có phép tính ở giữa chúng?
 ### Bài tập 2:
 Khởi động trình thông dịch Python và dùng nó như một máy tính để thực hiện các yêu cầu sau đây:
