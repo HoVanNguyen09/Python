@@ -4,11 +4,11 @@ Mục tiêu của cuốn sách này là dạy bạn tư duy như một Nhà khoa
 ## 1. Một chương trình là gì?
 Một chương trình là một chuỗi những câu lệnh (hay hướng dẫn) chỉ rõ cách thực hiện một phép tính. Phép tính đó có thể là một điều gì đó mang tính toán học, như là giải quyết một hệ phương trình hoặc là tìm nghiệm của một đa thức, nhưng cũng có thể là một phép tính biểu tượng, như là tìm kiếm và thay thế đoạn ký tự trong một văn bản hay thứ gì đó mang tính đồ họa, như xử lý một hình ảnh hay chạy một đoạn video. Các chi tiết trông khác nhau tùy vào ngôn ngữ khác nhau, nhưng các câu lệnh hướng dẫn cơ bản xuất hiện trong hầu như tất cả mọi ngôn ngữ:
 
-Đầu vào: Lấy dữ liệu từ bàn phím, từ một file, từ một mạng, hay từ một số thiết bị khác.
+- Đầu vào: Lấy dữ liệu từ bàn phím, từ một file, từ một mạng, hay từ một số thiết bị khác.
 Đầu ra: Hiển thị dữ liệu trên màn hình, lưu vào trong một file, gửi qua mạng…
-Toán học: Thực hiện các phép toán cơ bản như cộng và nhân.
+- Toán học: Thực hiện các phép toán cơ bản như cộng và nhân.
 Xử lý có điều kiện: Kiểm tra một số điều kiện nhất định và chạy đoạn mã phù hợp.
-Lặp lại: Thực hiện một số hành động lặp đi lặp lại, thường là với sự biến đổi.
+- Lặp lại: Thực hiện một số hành động lặp đi lặp lại, thường là với sự biến đổi.
 Tin hay không, tất cả chỉ có vậy. Mọi chương trình chúng ta từng sử dụng, cho dù phức tạp đến thế nào, đều được tạo nên từ các câu lệnh trông như vậy. Vậy nên bạn có thể nghĩ về lập trình như một quy trình chia nhỏ một tác vụ lớn, phức tạp thành các tác vụ phụ nhỏ hơn và nhỏ hơn nữa cho đến khi các tác vụ phụ đã đủ đơn giản để được thực hiện với những câu lệnh hướng dẫn cơ bản này.
 
 ## 2. Vận hành Python
