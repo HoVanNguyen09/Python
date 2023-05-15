@@ -193,15 +193,13 @@ debugging – gỡ lỗi: Quá trình tìm và sửa lỗi.
 ### Bài tập 1:
 Sẽ là một ý kiến rất hay khi bạn đọc cuốn sách này trước một máy tính để bạn có thể thử hết các ví dụ:
 
-Khi nào mà bạn thử nghiệm với các tính năng mới, bạn nên thử mắc lỗi. Ví dụ, trong chương trình “Hello, world!, chuyện gì xảy ra nếu bạn bỏ một dấu nháy đôi đi? Chuyện gì xảy ra nếu bạn bỏ cả hai dấu nháy đôi? Chuyện gì xảy ra nếu bạn gõ lệnh print sai?
-
-Những thử nghiệm như thế này giúp bạn nhớ những gì bạn đã đọc, nó cũng giúp khi bạn lập trình, vì bạn sẽ biết được ý nghĩa của tin nhắn lỗi như thế nào. Sẽ tốt hơn cho bạn nếu bạn mắc lỗi bây giờ và có mục đích hơn là sau này và vô ý.
-
-Trong câu lệnh print, chuyện gì xảy ra nếu bạn bỏ một dấu ngoặc đơn hoặc là cả hai?
-Nếu như bạn đang cố in ra một chuỗi, chuyện gì xảy ra nếu như bạn bỏ một dấu nháy, hoặc cả hai?
-Bạn có thể dùng dấu trừ (-) để tạo một số âm như -2. Chuyện gì xảy ra nếu bạn bỏ dấu cộng (+) trước một số? Phép tính 2++2 thì sao?
-Trong ghi chú toán học, số 0 đứng đầu thì ổn, vì dụ như 09. Chuyện gì xảy ra nếu bạn thử gõ như vậy trong Python? 011 thì sao?
-Chuyện gì xảy ra nếu bạn có hai giá trị mà không có phép tính ở giữa chúng?
+1. Khi nào mà bạn thử nghiệm với các tính năng mới, bạn nên thử mắc lỗi. Ví dụ, trong chương trình “Hello, world!, chuyện gì xảy ra nếu bạn bỏ một dấu nháy đôi đi? Chuyện gì xảy ra nếu bạn bỏ cả hai dấu nháy đôi? Chuyện gì xảy ra nếu bạn gõ lệnh print sai?
+2. Những thử nghiệm như thế này giúp bạn nhớ những gì bạn đã đọc, nó cũng giúp khi bạn lập trình, vì bạn sẽ biết được ý nghĩa của tin nhắn lỗi như thế nào. Sẽ tốt hơn cho bạn nếu bạn mắc lỗi bây giờ và có mục đích hơn là sau này và vô ý.
+3. Trong câu lệnh `print`, chuyện gì xảy ra nếu bạn bỏ một dấu ngoặc đơn hoặc là cả hai?
+4. Nếu như bạn đang cố in ra một chuỗi, chuyện gì xảy ra nếu như bạn bỏ một dấu nháy, hoặc cả hai?
+5.Bạn có thể dùng dấu trừ (-) để tạo một số âm như -2. Chuyện gì xảy ra nếu bạn bỏ dấu cộng (+) trước một số? Phép tính 2++2 thì sao?
+6. Trong ghi chú toán học, số 0 đứng đầu thì ổn, vì dụ như 09. Chuyện gì xảy ra nếu bạn thử gõ như vậy trong Python? 011 thì sao?
+7. Chuyện gì xảy ra nếu bạn có hai giá trị mà không có phép tính ở giữa chúng?
 ### Bài tập 2:
 Khởi động trình thông dịch Python và dùng nó như một máy tính để thực hiện các yêu cầu sau đây:
 
