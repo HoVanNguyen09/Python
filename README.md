@@ -24,8 +24,8 @@ Chương trình thông dịch Python là một chương trình đọc và thực
 
 Python 3.11.0 (v3.11.0:deaf509e8f, Oct 24 2022, 14:43:23) [Clang 13.0.0 (clang-1300.0.29.30)] on darwin
 
-`Type "help", "copyright", "credits" or "license" for more information.
->>>`
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
 
 Ba dòng đầu tiên chứa thông tin về chương trình thông dịch và hệ điều hành mà đang chạy chương trình này, vì vậy nó có thể khác đối với bạn. Nhưng bạn nên kiểm tra xem số phiên bản, ví dụ như 3.11.0, bắt đầu với số 3, nghĩa là bạn đang chạy Python 3. Nếu nó bắt đầu với số 2, nghĩa là bạn đang chạy Python 2.
 
